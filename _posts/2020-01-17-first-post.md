@@ -1,6 +1,8 @@
-# This is the title
+# This is my first post
 
 ## Nice to meet you
+
+I decided to try this after reading Jeremy Howard's blog post https://www.fast.ai/2020/01/16/fast_template/
 
 Jekyll requires blog post files to be named according to the following format:
 
