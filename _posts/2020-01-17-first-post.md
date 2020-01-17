@@ -16,7 +16,7 @@ I found it while Googling how to format a table in markdown
 
 ## Interesting news of the day
 
-Apple have reportedy acquired xnor.ai for $200M
+Apple have reportedly acquired https://xnor.ai for $200M
 
 Xnor are well known for having advocated the use of binary neural networks rather than low-precision floating point, int8 or other numerical formats.
 
