@@ -6,7 +6,7 @@
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 
-title: @cto_maverick blog
+title: cto_maverick blog
 description: random musings on deep-learning, computer vision, robotics and SoC architecture
 github_username: moloned
 
