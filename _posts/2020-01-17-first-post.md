@@ -8,6 +8,12 @@ The blog is now accessible on https://moloned.github.io/cto_maverick/
 
 The only issue not codered in Jeremy's blog entry was that you need to set the Github Pages section of the settings menu for your blog repo to Master otherwise the blog isn't accessible and you get a 404 error
 
+## How
+
+For those (like me) who are new to markdown here's a useful resource (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) 
+
+I found it while Googling how to format a table in markdown
+
 ## Interesting news of the day
 
 Apple have reportedy acquired xnor.ai for $200M
@@ -20,18 +26,12 @@ The reason for this is down to Boolean algebra
 
 The cost of a Binary multiplication is one AND gate
 
-    A*B
-    
-A B A.B
-
-0 0  0
-
-0 1  0
-
-1 0  0
-
-1 1  1
-
+| A | B |A.B|
+| - | - | - |
+| 0 | 0 | 0 |
+| 0 | 1 | 0 |
+| 1 | 0 | 0 |
+| 1 | 1 | 1 |
 
 Also the memory required to store a binary weight/coefficient for a BNN multiplier is one bit
 
