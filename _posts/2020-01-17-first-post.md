@@ -10,9 +10,7 @@ The only issue not codered in Jeremy's blog entry was that you need to set the G
 
 ## How
 
-For those (like me) who are new to markdown here's a useful [cheatsheet] (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) 
-
-I found it while Googling how to format a table in markdown
+For those (like me) who are new to markdown here's a useful [cheatsheet] (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) I found it while Googling how to format a table in markdown
 
 ## Interesting news of the day
 
@@ -38,3 +36,17 @@ Also the memory required to store a binary weight/coefficient for a BNN multipli
 And the wiring required to transmit the weight from a register or memory to the multiplier is one bit wide
 
 In a nanometer world where wiring is now the most costly element of a System on Chip (SoC) this is a big deal
+
+## Why this is a big deal
+
+The challenge until now has that while BNNs are very attractive from a power/area/cost/frequency perspective this big challenge was the degradation in network accuracy
+
+As we all know network accuracy is key to being able to deploy a product or service based upon it as 50% accuracy means you might as well flip a coin as pay heed to the output of your deep network
+
+The jury has been out on whether it is possible to trade off an increase in the complexity of BNN networks against higher accuracy
+
+By that I mean recover the accuracy lost in simply quantising all the weights to 1-bit by making much wider and potentially much deeper networks
+
+This has been the focus of a lot of academic effort and a few startups over the past 3-4 years
+
+Clearly this must have yielded fruit for Apple to have paid $200M
