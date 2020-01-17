@@ -21,11 +21,17 @@ The reason for this is down to Boolean algebra
 The cost of a Binary multiplication is one AND gate
 
     A*B
+    
 A B A.B
+
 0 0  0
+
 0 1  0
+
 1 0  0
+
 1 1  1
+
 
 Also the memory required to store a binary weight/coefficient for a BNN multiplier is one bit
 
