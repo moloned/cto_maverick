@@ -27,6 +27,10 @@ In a nanometer world where wiring is now the most costly element of a System on 
 
 ## Why this is a big deal
 
+Binary networks are not a new idea and in some ways are almost as old as computing itself
+
+Alan Turing proposed the use evolution to “train” a particular type of neural network he called a “B-type unorganised machine” in 1948 
+
 The challenge until now has that while BNNs are very attractive from a power/area/cost/frequency perspective this big challenge was the degradation in network accuracy
 
 As we all know network accuracy is key to being able to deploy a product or service based upon it as 50% accuracy means you might as well flip a coin as pay heed to the output of your deep network
