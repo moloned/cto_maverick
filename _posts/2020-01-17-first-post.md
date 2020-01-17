@@ -42,3 +42,7 @@ By that I mean recover the accuracy lost in simply quantising all the weights to
 This has been the focus of a lot of academic effort and a few startups over the past 3-4 years
 
 Clearly this must have yielded fruit for Apple to have paid $200M
+
+## Business advantage
+
+Low cost, ultra low power inference for always-on features like wake on voice or wake on face
