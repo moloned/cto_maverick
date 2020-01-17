@@ -1,11 +1,34 @@
 # This is my first post
 
-## Nice to meet you
+## Why
 
 I decided to try this after reading Jeremy Howard's blog post https://www.fast.ai/2020/01/16/fast_template/
 
-Jekyll requires blog post files to be named according to the following format:
+The blog is now accessible on https://moloned.github.io/cto_maverick/
 
-`YEAR-MONTH-DAY-filename.md`
+The only issue not codered in Jeremy's blog entry was that you need to set the Github Pages section of the settings menu for your blog repo to Master otherwise the blog isn't accessible and you get a 404 error
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `filename` is whatever file name you choose, to remind yourself what this post is about. The first line of the file should start with a single hash character, then a space, then your title. This is how you create a "level 1 heading" in markdown. Then you can create level 2, 3, etc headings as you wish but repeating the hash character, such as you see in the line "## Nice to meet you" above.
+## Interesting news of the day
+
+Apple have reportedy acquired xnor.ai for $200M
+
+Xnor are well known for having advocated the use of binary neural networks rather than low-precision floating point, int8 or other numerical formats.
+
+The advantage of (Binary Neural Networks) BNNs is that the chip area and propagation delays for circuits implementing BNNs are much less costly in dynamic and leakage power than NN accelerators using other formats.  
+
+The reason for this is down to Boolean algebra
+
+The cost of a Binary multiplication is one AND gate
+
+    A*B
+A B A.B
+0 0  0
+0 1  0
+1 0  0
+1 1  1
+
+Also the memory required to store a binary weight/coefficient for a BNN multiplier is one bit
+
+And the wiring required to transmit the weight from a register or memory to the multiplier is one bit wide
+
+In a nanometer world where wiring is now the most costly element of a System on Chip (SoC) this is a big deal
