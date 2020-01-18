@@ -43,6 +43,21 @@ This has been the focus of a lot of academic effort and a few startups over the 
 
 Clearly this must have yielded fruit for Apple to have paid $200M
 
+##The devil is in the details
+
+While on the face of it there's a potential 100x reduction in the size of the multipliers 
+if 8x8 bit multipliers are used. 
+
+Equally the propagation delay is reduced by about one order of magnitude 
+
+Finally the wiring related to individual weight is reduced by a factor of 8
+
+The real catch is how many binary multipliers it takes to achieve the desired accuracy 
+
+Indeed the size of the multipliers is not the only factor to consider but each additional binary multiplier has to be wired to a 1 bit memory
+
+So binary networks trade multiplier size off against increased weight storage and wiring
+
 ## Business advantage
 
 Low cost, ultra low power inference for always-on features like wake on voice or wake on face
