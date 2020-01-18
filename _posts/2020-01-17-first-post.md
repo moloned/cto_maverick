@@ -2,7 +2,7 @@
 
 ## Interesting news of the day
 
-Apple have reportedly acquired [xnor.ai] (https://xnor.ai) for $200M
+Apple have reportedly acquired [xnor.ai](https://xnor.ai) for $200M
 
 Xnor are well known for having advocated the use of binary neural networks rather than low-precision floating point, int8 or other numerical formats.
 
